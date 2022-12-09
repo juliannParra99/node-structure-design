@@ -1,5 +1,5 @@
 import express from "express";
-//path y url son modulos de node por lo que es bueno conocer  la intereaccion entre los modulos de aplicacion que provee express y los de node
+//path y url son modulos de Node por lo que es bueno conocer  la intereaccion entre los modulos de aplicacion que provee express y los de node
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import  indexRoutes from "./routes/index.js";
